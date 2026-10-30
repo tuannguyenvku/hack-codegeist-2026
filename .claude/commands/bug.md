@@ -1,0 +1,1 @@
+/Volumes/AllySSD/Projects/AgentAppStudio/studio-harness/.claude/commands/bug.md
