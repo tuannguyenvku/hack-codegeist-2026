@@ -1,6 +1,6 @@
 # AGENTS.md — Codegeist 2026: Build with context. Ship with confidence.
 
-Hướng dẫn cho AI agents (Antigravity `agy` & Studio Harness) làm việc trên repo này.
+Hướng dẫn cho OpenAI Codex CLI (`codex`) & Studio Harness làm việc trên repo này.
 
 ## Project
 
