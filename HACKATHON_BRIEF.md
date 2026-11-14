@@ -4,17 +4,17 @@
 - Prize Pool: $<span data-currency-value>120,000</span>
 - Deadline: about 2 months left
 - Approval Status: ✅ APPROVED BY USER
-- Approved Product Name: ContextPulse AI
-- Approved Pitch: Mỗi kỹ sư sở hữu một Agent ngầm tự động đối chiếu mã nguồn (Bitbucket PR) với yêu cầu thiết kế (Confluence) và tiến độ sprint (Jira) trong thời gian thực, phát hiện sớm sai lệch ngữ cảnh (context drift) trước khi merge. Nền tảng tự động sinh bài kiểm thử chấp nhận (acceptance verification) và cấp thẻ chứng nhận 'Ship with Confidence Scorecard' cho từng pull request.
-- Winning Angle: Đánh trúng 100% chủ đề 'Build with context. Ship with confidence' của Atlassian bằng kiến trúc Forge native kết hợp Atlassian Rovo Agents, biến luồng tra cứu thụ động thành trợ lý bối cảnh chủ động theo chuẩn One-Agent-Per-User.
-- Required Stack: Atlassian Forge (Custom UI & Triggers), Atlassian Rovo Agent SDK, TypeScript / React, OpenAI / Claude API, Bitbucket & Jira REST API
+- Approved Product Name: MedTrace GxP Compliance Guardian (Apps for Specialized Industries)
+- Approved Pitch: Hệ thống tự động kiểm toán truy xuất nguồn gốc (Traceability Matrix) chuẩn FDA 21 CFR Part 11 & ISO 13485 dành cho đội ngũ phần mềm y tế/dược phẩm: liên kết yêu cầu thiết kế trên Confluence, đánh giá rủi ro FMEA và bằng chứng kiểm thử trên Jira qua Forge + Rovo Agent để xuất hồ sơ thẩm định kiểm toán chỉ trong 1 click.
+- Winning Angle: Đánh vào hạng mục ít cạnh tranh nhất là Apps for Specialized Industries ($15k), giải quyết nỗi đau kiểm toán pháp lý cực đắt đỏ trong ngành y tế/sinh học thay vì các công cụ dev thông thường.
+- Required Stack: Atlassian Forge (Storage, Triggers & Custom UI), Atlassian Rovo Agent & Reusable Skills (rovo:agent, rovo:skill), Teamwork Graph API, Jira & Confluence Cloud API, TypeScript / React
 - Studio Harness Root: `/Volumes/AllySSD/Projects/AgentAppStudio/studio-harness`
 
 ## Studio Harness Engineering Rules (SDD → VSDD → CoDD)
 
 1. **Product & Architecture (`studio.design.init` + `studio.product.specification`)**:
    - Đọc `.claude/commands/design-init.md` và `.claude/commands/spec.md`.
-   - Tạo `DESIGN.md` và `SPEC.md` (theo mẫu `/Volumes/AllySSD/Projects/AgentAppStudio/studio-harness/templates/SPEC.md`) bám sát ý tưởng đã được duyệt (`ContextPulse AI`), với các tiêu chí nghiệm thu định dạng `- AC-1: <hành vi kiểm chứng được>`, `- AC-2: ...`.
+   - Tạo `DESIGN.md` và `SPEC.md` (theo mẫu `/Volumes/AllySSD/Projects/AgentAppStudio/studio-harness/templates/SPEC.md`) bám sát ý tưởng đã được duyệt (`MedTrace GxP Compliance Guardian (Apps for Specialized Industries)`), với các tiêu chí nghiệm thu định dạng `- AC-1: <hành vi kiểm chứng được>`, `- AC-2: ...`.
    - Chạy `npm --prefix /Volumes/AllySSD/Projects/AgentAppStudio/studio-harness run coverage:check -- --spec ./SPEC.md` đảm bảo trả về danh sách tiêu chí hợp lệ (exit code 0).
 2. **Engineering (`studio.build.implement`)**:
    - Đọc `.claude/commands/build.md`, xây dựng ứng dụng hoàn chỉnh chạy thực tế ở cổng 3000 (hoặc 8000), không dùng mock data cứng.

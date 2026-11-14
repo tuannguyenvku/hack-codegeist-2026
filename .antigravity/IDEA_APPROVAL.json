@@ -1,16 +1,16 @@
 {
   "approval_status": "approved",
   "approved_idea": {
-    "option_id": "A",
-    "name": "ContextPulse AI",
-    "pitch": "Mỗi kỹ sư sở hữu một Agent ngầm tự động đối chiếu mã nguồn (Bitbucket PR) với yêu cầu thiết kế (Confluence) và tiến độ sprint (Jira) trong thời gian thực, phát hiện sớm sai lệch ngữ cảnh (context drift) trước khi merge. Nền tảng tự động sinh bài kiểm thử chấp nhận (acceptance verification) và cấp thẻ chứng nhận 'Ship with Confidence Scorecard' cho từng pull request.",
-    "winning_angle": "Đánh trúng 100% chủ đề 'Build with context. Ship with confidence' của Atlassian bằng kiến trúc Forge native kết hợp Atlassian Rovo Agents, biến luồng tra cứu thụ động thành trợ lý bối cảnh chủ động theo chuẩn One-Agent-Per-User.",
+    "option_id": "B",
+    "name": "MedTrace GxP Compliance Guardian (Apps for Specialized Industries)",
+    "pitch": "Hệ thống tự động kiểm toán truy xuất nguồn gốc (Traceability Matrix) chuẩn FDA 21 CFR Part 11 & ISO 13485 dành cho đội ngũ phần mềm y tế/dược phẩm: liên kết yêu cầu thiết kế trên Confluence, đánh giá rủi ro FMEA và bằng chứng kiểm thử trên Jira qua Forge + Rovo Agent để xuất hồ sơ thẩm định kiểm toán chỉ trong 1 click.",
+    "winning_angle": "Đánh vào hạng mục ít cạnh tranh nhất là Apps for Specialized Industries ($15k), giải quyết nỗi đau kiểm toán pháp lý cực đắt đỏ trong ngành y tế/sinh học thay vì các công cụ dev thông thường.",
     "tech_stack": [
-      "Atlassian Forge (Custom UI & Triggers)",
-      "Atlassian Rovo Agent SDK",
-      "TypeScript / React",
-      "OpenAI / Claude API",
-      "Bitbucket & Jira REST API"
+      "Atlassian Forge (Storage, Triggers & Custom UI)",
+      "Atlassian Rovo Agent & Reusable Skills (rovo:agent, rovo:skill)",
+      "Teamwork Graph API",
+      "Jira & Confluence Cloud API",
+      "TypeScript / React"
     ]
   },
   "slug": "codegeist-2026",

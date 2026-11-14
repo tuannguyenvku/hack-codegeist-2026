@@ -5,16 +5,16 @@ Hướng dẫn cho OpenAI Codex CLI (`codex`) & Studio Harness làm việc trên
 ## Project
 
 Sản phẩm dự thi Hackathon **Codegeist 2026: Build with context. Ship with confidence.** (Đã được người dùng phê duyệt ý tưởng):
-- **Tên sản phẩm**: ContextPulse AI
-- **Mô tả**: ContextPulse AI: Mỗi kỹ sư sở hữu một Agent ngầm tự động đối chiếu mã nguồn (Bitbucket PR) với yêu cầu thiết kế (Confluence) và tiến độ sprint (Jira) trong thời gian thực, phát hiện sớm sai lệch ngữ cảnh (context drift) trước khi merge. Nền tảng tự động sinh bài kiểm thử chấp nhận (acceptance verification) và cấp thẻ chứng nhận 'Ship with Confidence Scorecard' cho từng pull request.
-- **Góc độ thắng giải**: Đánh trúng 100% chủ đề 'Build with context. Ship with confidence' của Atlassian bằng kiến trúc Forge native kết hợp Atlassian Rovo Agents, biến luồng tra cứu thụ động thành trợ lý bối cảnh chủ động theo chuẩn One-Agent-Per-User.
+- **Tên sản phẩm**: MedTrace GxP Compliance Guardian (Apps for Specialized Industries)
+- **Mô tả**: MedTrace GxP Compliance Guardian (Apps for Specialized Industries): Hệ thống tự động kiểm toán truy xuất nguồn gốc (Traceability Matrix) chuẩn FDA 21 CFR Part 11 & ISO 13485 dành cho đội ngũ phần mềm y tế/dược phẩm: liên kết yêu cầu thiết kế trên Confluence, đánh giá rủi ro FMEA và bằng chứng kiểm thử trên Jira qua Forge + Rovo Agent để xuất hồ sơ thẩm định kiểm toán chỉ trong 1 click.
+- **Góc độ thắng giải**: Đánh vào hạng mục ít cạnh tranh nhất là Apps for Specialized Industries ($15k), giải quyết nỗi đau kiểm toán pháp lý cực đắt đỏ trong ngành y tế/sinh học thay vì các công cụ dev thông thường.
 - **Quy trình kỹ thuật**: **SDD → VSDD → CoDD** của `/Volumes/AllySSD/Projects/AgentAppStudio/studio-harness`.
 
 ## Architectural decisions (đọc trước khi sửa)
 
 | Quyết định | Lý do | Ngày |
 |---|---|---|
-| Chốt ý tưởng `ContextPulse AI` | Đã qua bước Human Approval Gate trước khi build | 2026-10 |
+| Chốt ý tưởng `MedTrace GxP Compliance Guardian (Apps for Specialized Industries)` | Đã qua bước Human Approval Gate trước khi build | 2026-10 |
 | Áp dụng Studio Harness (`SDD → VSDD → CoDD`) | Đảm bảo mọi tính năng đều có `DESIGN.md`, `SPEC.md` (`AC-1..N`), test tự động và `VALIDATION.md` | 2026-10 |
 
 ## Known gaps (đừng "sửa nhầm")
